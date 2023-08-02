@@ -535,7 +535,7 @@ button{
 }
 
 .card:hover::before {
-  transform: rotate(-90deg) scaleX(1.2) scaleY(0.83);
+ transform: rotate(-90deg) scaleX(1.3) scaleY(0.79);
 }
 .navbar{
   margin-top: 28px;
