@@ -446,7 +446,7 @@ button{
   }
 @media(max-width:950px){
   .container{
-    width: 100%;
+   width: 105%;
     display: inline;
     flex-direction: column;}
 
