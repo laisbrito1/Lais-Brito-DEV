@@ -502,18 +502,22 @@ button{
      }
 }
 
+
 @media(max-width:550px){
 
-  .cards{  width: 100%;
+  .cards{   grid-template-columns: repeat(3, auto);
+    grid-template-rows:100px 100px;
     
-    justify-items:center ;
-  
-    margin-top: 2px;
+   justify-content: stretch;
+   align-items: flex-start;
+     justify-content: center;
+     position: relative;
+     
   }
   .icon{
  
-    margin-right: 3px;
-    margin-left: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   .card {
     position: relative;
