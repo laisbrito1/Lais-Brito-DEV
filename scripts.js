@@ -53,7 +53,7 @@ function mudarTexto() {
         originalText2 = elementoTexto2.innerHTML;
       
         botao.innerHTML = 'Português';
-        elementoTexto.innerHTML = 'I am currently studying Computer Science at college and have been working as a freelancer for about 6 months. My specialties include HTML, CSS, JavaScript, SQL, Python, Windows, Figma, Canvas, Information Networks, and basic knowledge of JAVA.';
+        elementoTexto.innerHTML = 'I am currently studying Computer Science at college and have been working as a freelancer for about 6 months. My specialties include HTML, CSS, JavaScript, SQL, Python, Windows, Figma, Canvas, Networks, and basic knowledge of JAVA.';
         elementoTexto2.innerHTML = 'Illustrator | Designer';
     } else {
         // If the current text is 'Português', revert to English
