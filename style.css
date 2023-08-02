@@ -507,7 +507,7 @@ button{
 
   .cards{   grid-template-columns: repeat(3, auto);
     grid-template-rows:100px 100px;
-    
+    width: 100%;
    justify-content: stretch;
    align-items: flex-start;
      justify-content: center;
@@ -520,6 +520,7 @@ button{
     margin-left: 5px;
   }
   .card {
+      
     position: relative;
     max-width: 200px;
     max-height: 264px;
