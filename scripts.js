@@ -47,17 +47,17 @@ function mudarTexto() {
     var elementoTexto2 = document.getElementById('texto2');
     var botao = document.getElementById('en');
 
-    if (botao.innerHTML === 'English') {
+    if (botao.innerHTML === 'EN') {
         // Save the original text and change the button and element text to Portuguese
         originalText = elementoTexto.innerHTML;
         originalText2 = elementoTexto2.innerHTML;
       
-        botao.innerHTML = 'Português';
+        botao.innerHTML = 'PT';
         elementoTexto.innerHTML = 'I am currently studying Computer Science at college and have been working as a freelancer for about 6 months. My specialties include HTML, CSS, JavaScript, SQL, Python, Windows, Figma, Canvas, Networks, and basic knowledge of JAVA.';
-        elementoTexto2.innerHTML = 'Illustrator | Designer';
+        elementoTexto2.innerHTML = 'And Designer';
     } else {
         // If the current text is 'Português', revert to English
-        botao.innerHTML = 'English';
+        botao.innerHTML = 'EN';
         elementoTexto.innerHTML = originalText;
         elementoTexto2.innerHTML = originalText2;
     }

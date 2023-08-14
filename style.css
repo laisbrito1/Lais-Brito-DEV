@@ -10,11 +10,13 @@
   --bg: rgb(30, 6, 53);
   --colortext:white;
   --coloricon:white;
+  --colorbutton:black;
 }
 .light-mode:root{
   --bg: #e2e0f8;
   --colortext: rgb(30, 6, 53);
   --coloricon:#9898fa;
+  --colorbutton: rgb(30, 6, 53);
 }
 body{
     width: 100%;
@@ -115,7 +117,12 @@ label {
   background-clip: text;
   color: transparent;
 }
-
+#en{
+  width: 30px;
+  font-weight: 600;
+  border-radius: 6px;
+  height: 28px;
+}
 .gh{
   color: white;
   text-decoration: none;
@@ -167,18 +174,23 @@ p{
   margin-top: 20px;
 }
 
-
+.container2{
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+.hab{
+  margin-bottom: 15%;
+}
 .cards{
-  width:60%;
+  width:70%;
   margin-top: 5vw;
-  
   display:grid;
- grid-template-columns: repeat(8, auto);
- grid-template-rows:100px 100px;
-justify-content: stretch;
-align-items: flex-start;
-  justify-content: center;
-  position: relative;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows:100px 100px;
+  justify-content: stretch;
+  position: absolute;
   
 }
 
@@ -186,11 +198,11 @@ align-items: flex-start;
   
   .icon {
     padding: 8px;
-    width: 100%;
-    height: 80px;
-    max-width: 80px;
+    width: 80%;
+    height: 120px;
+    max-width: 120px;
     background: linear-gradient(90deg, #5f94ff 0%, #ff48fb 40%, var(--coloricon) 60%);
-    border-radius: 100%;
+    border-radius: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,7 +210,7 @@ align-items: flex-start;
     background-position: 0px;
     background-size: 200px;
     margin-bottom: 200px;
-    margin-right: 25px;
+    margin-right: 15px;
   }
 
 
@@ -212,12 +224,6 @@ align-items: flex-start;
    
     transition: all 0.3s ease;
   }
-button{
-    border-radius: 12px;
-    width: 80px;
-    font-weight: 500;
-    
-  }
 
 .btn {
   margin-top: 5vw;
@@ -229,7 +235,7 @@ button{
     --border-width: .150em;
     --curve-size: .5em;
     --blur: 30px;
-    --bg: #080312;
+    background: var(--border-color);
     --color: #afffff;
     color: var(--color);
       /* use position: relative; so that BG is only for .btn */
@@ -287,7 +293,7 @@ button{
   }
   
   .btn::after {
-    background: var(--bg);
+    background: var(--colorbutton);
     z-index: -1;
     clip-path: polygon(
               /* Top-left */
