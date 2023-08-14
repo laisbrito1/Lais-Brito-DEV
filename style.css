@@ -12,7 +12,7 @@
   --coloricon:white;
   --colorbutton:black;
   --colorEn: white;
-  --colortext1: rgb(98, 73, 243);
+  --colortext2: rgb(98, 73, 243);
 }
 .light-mode:root{
   --bg: #e2e0f8;
@@ -20,7 +20,7 @@
   --coloricon:#9898fa;
   --colorbutton: rgb(30, 6, 53);
   --colorEn: rgb(98, 73, 243);
-  --colortext1: black;
+  --colortext2: black;
 }
 body{
     width: 100%;
@@ -125,7 +125,7 @@ label {
   color: transparent;
 }
 .button{
-  color: var(--colortext1);
+  color: var(--colortext2);
   width: 30px;
   border-radius: 10px;
   height: 25px;
