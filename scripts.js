@@ -45,21 +45,25 @@ var originalText2 = ''; // Variable to store the original text
 function mudarTexto() {
     var elementoTexto = document.getElementById('texto');
     var elementoTexto2 = document.getElementById('texto2');
+    var elementoTexto3 = document.getElementById('hab');
     var botao = document.getElementById('en');
 
     if (botao.innerHTML === 'EN') {
         // Save the original text and change the button and element text to Portuguese
         originalText = elementoTexto.innerHTML;
         originalText2 = elementoTexto2.innerHTML;
+        originalText3 = elementoTexto3.innerHTML;
       
         botao.innerHTML = 'PT';
         elementoTexto.innerHTML = 'I am currently studying Computer Science at college and have been working as a freelancer for about 6 months. My specialties include HTML, CSS, JavaScript, SQL, Python, Windows, Figma, Canvas, Networks, and basic knowledge of JAVA.';
-        elementoTexto2.innerHTML = 'And Designer';
+        elementoTexto2.innerHTML = 'fullStack developer and Designer';
+        elementoTexto3.innerHTML = 'Skills';
     } else {
         // If the current text is 'Português', revert to English
         botao.innerHTML = 'EN';
         elementoTexto.innerHTML = originalText;
         elementoTexto2.innerHTML = originalText2;
+        elementoTexto3.innerHTML = originalText3;
     }
 
 
