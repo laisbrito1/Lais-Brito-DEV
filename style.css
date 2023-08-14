@@ -136,7 +136,7 @@ label {
     position: relative;
 }
 .text_container {
-  margin-top: 10vw;
+  margin-top: 8vw;
   margin-right: 2vw;
     width: 60%;
     padding-left: 5rem;
@@ -201,7 +201,7 @@ p{
     width: 80%;
     height: 120px;
     max-width: 120px;
-    background: linear-gradient(90deg, #5f94ff 0%, #ff48fb 40%, var(--coloricon) 60%);
+    background: linear-gradient(90deg, #5f94ff 0%, #ff48fb ,  #ffae00 100% , var(--coloricon));
     border-radius: 20%;
     display: flex;
     justify-content: center;
@@ -216,7 +216,7 @@ p{
 
   
   .icon:hover{
-    background-position: -120px;
+    background-position:-200px;
     transition: all 0.3s ease;
   }
   
@@ -428,7 +428,7 @@ p{
     width: 310px;
     height: 374px;
     border-radius: 10px;
-    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff,  100% );
     z-index: -10;
     pointer-events: none;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -437,7 +437,7 @@ p{
   .card::after {
     position: absolute;
     inset: 0;
-    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde,  100% );
     transform: translate3d(0, 0, 0) scale(0.85);
     filter: blur(20px);
   }
