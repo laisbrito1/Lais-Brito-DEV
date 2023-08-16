@@ -372,27 +372,6 @@ p{
     color: #fff;
   }
 
-
-
-  
-  @keyframes glitch {
-    0% {
-      transform: translate(0);
-    }
-  
-    20% {
-      transform: translate(-3px, 3px);
-    }
-  
-    40% {
-      transform: translate(-3px, -3px);
-    }
-  
-  
-    to {
-      transform: translate(0);
-    }
-  }
   
   .card {
     position: relative;
@@ -455,7 +434,24 @@ p{
   .card:hover::before {
     transform: rotate(-90deg) scaleX(1.2) scaleY(0.83);
   }
-  
+  @media(max-width:1280px){
+    .cards{  
+      margin-top: 18vw;
+      width: 65%;    
+    }
+    .btn {
+     
+      width: 180px;
+      height: 50px;
+    }
+
+    .icon{
+      height: 78px;
+      width: 78px;
+      margin-right: 5px;
+    
+    }
+  }
 @media(max-width:950px){
   .menuitems{
     display: flex;
