@@ -151,9 +151,9 @@ label {
 .text_container {
   margin-top: 6vw;
   margin-right: 2vw;
-    width: 60%;
-    padding-left: 5rem;
-    padding-top: 3rem;
+  width: 60%;
+  padding-left: 5rem;
+  padding-top: 3rem;
 }
 
 
@@ -199,20 +199,32 @@ p{
 .container2{
   display: flex;
   align-items: center;
-  padding-left: 15%;
-  padding-top: 5%;
+  justify-content: center;
+  position: relative;
+  width: 60%;
+  padding-left: 5rem;
+  padding-top: 3rem;
 }
 #hab{
-  margin-bottom: 15%;
+
+  position: relative;
+  margin-top: 6vw;
+  width: 40%;
+  padding-left: 18rem;
+  padding-top: 3rem;
+   
 }
 .cards{
-  width:70%;
-  margin-top: 5vw;
+  width:100%;
   display:grid;
   grid-template-columns: repeat(8, auto);
   grid-template-rows:100px 100px;
   justify-content: stretch;
   position: absolute;
+  margin-top: 6vw;
+  margin-right: 3vw;
+  padding-left: 17rem;
+  padding-top: 3rem;
   
 }
 
@@ -436,8 +448,15 @@ p{
   }
   @media(max-width:1280px){
     .cards{  
-      margin-top: 18vw;
-      width: 65%;    
+      display:grid;
+      grid-template-columns: repeat(6, auto);
+      grid-template-rows:100px 100px;
+      justify-content: stretch;
+      position: absolute;
+      margin-top: 6vw;
+      margin-right: 2vw;
+      padding-top: 3rem;
+        
     }
     .btn {
      
@@ -448,20 +467,29 @@ p{
     .icon{
       height: 78px;
       width: 78px;
-      margin-right: 5px;
     
     }
+    #hab{
+      position: relative;
+      margin-top: 6vw;
+      margin-bottom: 3vw ;
+      width: 40%;
+      padding-left: 11rem;
+ 
+       
+    }
+   
   }
 @media(max-width:950px){
   .menuitems{
     display: flex;
     margin: auto 0;
-    margin-left: 20%;
+    margin-left: 90%;
 }
   .container{
    width: 105%;
-  display: inline;
-  flex-direction: column;}
+   display: inline;
+   flex-direction: column;}
 
   .card {
       position: relative;
@@ -481,7 +509,7 @@ p{
     transform: rotate(-90deg) scaleX(1.2) scaleY(0.83);
   }
   p{
-    font-size: 5vw;
+    font-size: 3vw;
     margin-top: 20px;
   }
   h5{
