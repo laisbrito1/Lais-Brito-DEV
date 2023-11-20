@@ -442,39 +442,7 @@ p{
   .card:hover::before {
     transform: rotate(-90deg) scaleX(1.2) scaleY(0.83);
   }
-  @media(max-width:1280px){
-    .cards{  
-      display:grid;
-      grid-template-columns: repeat(6, auto);
-      grid-template-rows:100px 100px;
-      justify-content: stretch;
-      position: absolute;
-      margin-top: 6vw;
-      margin-right: 2vw;
-      padding-top: 3rem;
-        
-    }
-    .btn {
-     
-      width: 180px;
-      height: 50px;
-    }
 
-    .icon{
-      height: 78px;
-      width: 78px;
-    
-    }
-    #hab{
-      position: relative;
-      margin-top: 6vw;
-      margin-bottom: 3vw ;
-      width: 40%;
-      padding-left: 11rem;
- 
-       
-    }
-   
   }
 @media only screen and (max-width: 300px){
 
@@ -507,6 +475,7 @@ p{
   background-size: 200px;
   margin-bottom: 200px;
   margin-right: 15px;
+    margin-top:4vw;
 }
 
   .menuitems{
@@ -586,6 +555,7 @@ p{
  
     margin-right: 5px;
     margin-left: 5px;
+      margin-top:4vw;
   }
   .card {
       
