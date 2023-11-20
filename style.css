@@ -189,7 +189,7 @@ h5{
 }
 
 p{
-  font-size: 24px;
+  font-size: 28px;
   margin-top: 20px;
   
 
@@ -205,15 +205,7 @@ p{
   padding-left: 5rem;
   padding-top: 3rem;
 }
-#hab{
 
-  position: relative;
-  margin-top: 6vw;
-  width: 40%;
-  padding-left: 18rem;
-  padding-top: 3rem;
-   
-}
     .cards{
       width:100%;
       display:grid;
