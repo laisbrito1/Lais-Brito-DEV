@@ -214,50 +214,51 @@ p{
   padding-top: 3rem;
    
 }
-.cards{
-  width:100%;
-  display:grid;
-  grid-template-columns: repeat(8, auto);
-  grid-template-rows:100px 100px;
-  justify-content: stretch;
-  position: absolute;
-  margin-top: 6vw;
-  margin-right: 3vw;
-  padding-left: 17rem;
-  padding-top: 3rem;
-  
-}
-
-
-  
-  .icon {
-    padding: 8px;
-    width: 80%;
-    height: 120px;
-    max-width: 120px;
-    background: linear-gradient(90deg, #5f94ff 0%, #ff48fb ,  #ffae00 100% , var(--coloricon));
-    border-radius: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.8s ease;
-    background-position: 0px;
-    background-size: 200px;
-    margin-bottom: 200px;
-    margin-right: 15px;
-  }
-
-
-  
-  .icon:hover{
-    background-position:120px;
-    transition: all 0.3s ease;
-  }
-  
-  .icon:hover svg path {
-   
-    transition: all 0.3s ease;
-  }
+    .cards{
+      width:100%;
+      display:grid;
+      grid-template-columns: repeat(8, auto);
+      grid-template-rows:100px 100px;
+      justify-content: stretch;
+      position: absolute;
+      margin-top: 1vw;
+      margin-right: 3vw;
+      padding-left: 17rem;
+      padding-top: 1rem;
+    
+      
+    }
+    
+    
+      
+      .icon {
+        padding: 8px;
+        width: 80%;
+        height: 120px;
+        max-width: 120px;
+        background: linear-gradient(100deg, #5f94ff 0%, #ff48fb ,  #ffae00 90% , #fff);
+        border-radius: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.8s ease;
+        background-position: 0px;
+        background-size: 200px;
+        margin-bottom: 200px;
+        margin-right: 15px;
+      }
+    
+    
+      
+      .icon:hover{
+        background-position:150px;
+        transition: all 0.3s ease;
+      }
+      
+      .icon:hover svg path {
+       
+        transition: all 0.3s ease;
+      }
 
 .btn {
   margin-top: 5vw;
@@ -480,7 +481,39 @@ p{
     }
    
   }
-@media(max-width:950px){
+@media only screen and (max-width: 300px){
+
+    .cards{
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows:100px 100px;
+  justify-content: flex-start;
+  position: absolute;
+  margin-top: 1vw;
+  margin-right: 0;
+  margin-left: 18px;
+  padding-left: 0;
+  padding-top: 0;
+  
+}
+.icon {
+  padding: 8px;
+  width: 80%;
+  height: 80px;
+  max-width: 80px;
+  background: linear-gradient(100deg, #5f94ff 0%, #ff48fb ,  #ffae00 90% , #fff);
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+  background-position: 0px;
+  background-size: 200px;
+  margin-bottom: 200px;
+  margin-right: 15px;
+}
+
   .menuitems{
     display: flex;
     margin: auto 0;
@@ -544,17 +577,21 @@ p{
 }
 
 
-@media(max-width:550px){
-
-  .cards{   grid-template-columns: repeat(3, auto);
-    grid-template-rows:100px 100px;
-    width: 100%;
-   justify-content: stretch;
-   align-items: flex-start;
-     justify-content: center;
-     position: relative;
-     
-  }
+@media only screen and (max-width: 768px){
+.cards{
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows:100px 100px;
+  justify-content: flex-start;
+  position: absolute;
+  margin-top: 1vw;
+  margin-right: 0;
+  margin-left: 18px;
+  padding-left: 0;
+  padding-top: 0;
+  
+}
   .menuitems{
     display: flex;
     margin: auto 0;
