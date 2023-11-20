@@ -147,6 +147,7 @@ label {
     align-items: center;
     justify-content: center;
     position: relative;
+        margin-botom:6vw;
 }
 .text_container {
   margin-top: 6vw;
@@ -181,7 +182,7 @@ p,h5{
   color: var(--colortext)
 }
 h5{
-    font-size: 3vw;
+    font-size: 28px;
     margin-top: 20px;
     text-transform: capitalize;
     font-weight: 400;
@@ -204,6 +205,7 @@ p{
   width: 100%;
   padding-left: 5rem;
  margin-top: 6vw;
+
 }
 
     .cards{
