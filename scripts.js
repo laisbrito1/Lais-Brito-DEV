@@ -45,19 +45,19 @@ var originalText2 = ''; // Variable to store the original text
 function mudarTexto() {
     var elementoTexto = document.getElementById('texto');
     var elementoTexto2 = document.getElementById('texto2');
-    var elementoTexto3 = document.getElementById('hab');
+
     var botao = document.getElementById('en');
 
     if (botao.innerHTML === 'EN') {
         // Save the original text and change the button and element text to Portuguese
         originalText = elementoTexto.innerHTML;
         originalText2 = elementoTexto2.innerHTML;
-        originalText3 = elementoTexto3.innerHTML;
+
       
         botao.innerHTML = 'PT';
-        elementoTexto.innerHTML = 'I am currently studying Computer Science at college and have been working as a freelancer for about 6 months. My specialties include HTML, CSS, JavaScript, SQL, Python, Windows, Figma, Canvas, Networks, and basic knowledge of JAVA.';
+        elementoTexto.innerHTML = ' I am Brazilian and passionate about technology. Currently studying Computer Science at university.  I have experience working in the field of marketing and social media, editing images and videos,  hosting live streams and broadcasts, and creating visual identities.  Knowledge in Networks and technical support, monitoring, testing and opening tickets. I am highly communicative and have a strong focus and proactivity in problem-solving. Developing websites with Javascript, Wordpress, python and PHP.';
         elementoTexto2.innerHTML = 'fullStack developer and Designer';
-        elementoTexto3.innerHTML = 'Skills';
+     
     } else {
         // If the current text is 'Português', revert to English
         botao.innerHTML = 'EN';
